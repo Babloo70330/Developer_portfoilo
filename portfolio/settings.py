@@ -7,7 +7,7 @@ SECRET_KEY = 'django-insecure-change-this-in-production-use-env-variable'
 
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost').split(',')
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'https://developer-portfoilo.onrender.com').split(',')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
